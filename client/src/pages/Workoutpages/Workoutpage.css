@@ -1,0 +1,55 @@
+
+
+.container-a {
+  text-align: center;
+  margin-bottom: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  
+  background-image: none;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+#button11,
+#button22,
+#button33 {
+  width: 200px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: rgb(248, 247, 247);
+  backdrop-filter: blur(10px);
+  border: none;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: transform 0.3s ease;
+  outline: invert;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Optional: Add additional styles for button sizes or specific button IDs */
+#button11 {
+  background-image: url('https://images.unsplash.com/photo-1613845205719-8c87760ab728?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRoZSUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D');
+  background-size: cover;
+}
+
+#button22 {
+  background-image: url('https://images.unsplash.com/photo-1548690312-e3b507d8c110?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRoZSUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D');
+  background-size: cover;
+}
+
+#button33 {
+  background-image: url('https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHRoZSUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D');
+  background-size: cover;
+}
